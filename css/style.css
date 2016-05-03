@@ -1,0 +1,256 @@
+*{ margin:0;padding:0; }
+div{ overflow:hidden; }
+a { color:#777; }
+a:hover{ text-decoration:none; opacity:0.9; }
+
+body { 
+	background:#fff;
+	font: 13px/20px 'Roboto', sans-serif;
+	background:#C8C8C8;
+}
+
+/*--- Начало тела страницы --- */
+#wrap {
+	overflow:hidden;
+}
+#wrap-inner {
+	width:960px;
+	margin:30px auto;
+	background:#fff;
+	border-radius:4px;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.32);
+}
+#wrap-inner h1 {
+	text-align:center;
+	font-size:15px;
+	color: #555;
+	font-weight:600;
+	line-height:40px;
+	text-shadow: 0 1px white;
+    background: #f3f3f3;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.content {
+	overflow:hidden;
+	padding: 0 20px 20px 20px;
+}
+
+/*--- Верхняя навигация ---*/
+#top-navigation {
+	overflow:hidden;
+	line-height:40px;
+}
+#top-navigation ul {
+	float:right;
+	list-style:none;
+}
+#top-navigation ul li {
+	float:left;
+}
+#top-navigation ul li:last-child {
+	margin-left:20px;
+}
+.search {
+	float:left;
+	margin-top: 7px;
+}
+
+
+.sprav-table {
+	width:100%;
+}
+.rows {
+	color:#fff;
+}
+.record {
+	color:#A9A9A9;
+}
+
+#panel {
+	margin-top:5px;
+}
+#panel ul li a {
+	text-decoration:none;
+}
+
+#panel ul li {
+	list-style:none;
+	float:left;
+	margin-left:10px;
+	border: 1px solid;
+	padding:4px;
+}
+
+
+/* --- Стили модального окна --- */
+.over {
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.82);
+}
+.modal {
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 10;
+	display: block;
+	margin: 30px auto;
+	width: 90%;
+	min-width: 320px;
+	max-width: 350px;
+	position: fixed;
+	text-align:center;
+}
+.modal-inner {
+	top: 30px;
+	right: 0;
+	left: 0;
+	z-index: 10;
+	display: block;
+	margin: 50px auto;
+	width: 90%;
+	min-width: 320px;
+	max-width: 350px;
+	position: fixed;
+	padding: 10px 15px 10px 15px;
+	border: 1px solid #383838;
+	background:#fff;
+	text-align:center;
+}
+
+.modal-auth {
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 10;
+	display: block;
+	margin: 80px auto;
+	width: 90%;
+	min-width: 320px;
+	max-width: 350px;
+	position: fixed;
+	padding: 10px 15px 10px 15px;
+	border: 1px solid #383838;
+	background:#fff;
+	text-align:center;
+}
+
+.modal a, .modal-auth a {
+	right:10px;
+	position:absolute;
+}
+.auto {
+	font-size:15px;
+	color: #555;
+	font-weight:600;
+	text-align:center;
+}
+
+.auto-block {
+	margin-top:10px;
+}
+
+.load {
+	display:none;
+}
+
+input[type="text"], input[type="password"] {
+   border: 1px solid #cccccc; 
+   background: #ffffff !important; 
+   padding:0 3px;
+   height: 24px; 
+   color: #777;
+   font-size: 11px; 
+}
+
+.btn {
+	margin-top:10px;
+	padding:5px 15px;
+}
+
+.has-error input[type="text"], .has-error input[type="password"] {
+	border: 1px solid red; 
+}
+
+.table {
+	width:100%;
+}
+/* --- Стили таблиц --- */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+table, tbody, tfoot, tr, th, td, table caption {
+	font: 13px/20px 'Roboto', sans-serif;
+	background:#262b38;
+	text-align:left;
+	font-size:11px;
+	color:#fff;
+	border:1px solid black;
+	
+}
+td, th, table caption {
+	padding:5px 5px 5px 10px;
+	vertical-align:middle;
+}
+table a {
+	color:white;
+}
+
+
+/*----*/
+.pager {
+	float:right;
+	margin-top:10px;
+}
+.active a {
+	background:#262b38;
+	color:#fff;
+	border:1px solid black;
+}
+.pager a {
+	border:1px solid black;
+}
+.pager .page a:hover {
+	background:#262b38;
+	color:#fff;
+}
+.pager .disabled a {
+	display:none;
+}
+.pager .previous a, .next a {
+	border:none;
+}
+
+/*----*/
+.filters input[type="text"]{
+	width:100%;
+	box-sizing: border-box;
+}
+.filters td {
+	padding:10px;
+	margin:0;
+}
+.filter-id {
+	width:60px;
+}
+
+/*---button---*/
+.button-column {
+	text-align:center;
+}
+.button-column a {
+	margin-right:10px;
+}
+.button-column a:hover {
+	opacity:0.8;
+}
+.button-column img {
+	width:15px;
+}
+.button-column a:last-child {
+	margin-right:0;
+}
