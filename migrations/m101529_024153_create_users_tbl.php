@@ -5,7 +5,7 @@
 	{
 		public function up()
 		{
-			$this->createTable('tbl_contacts', array(
+			$this->createTable('tbl_users', array(
 				'id' => 'pk',
 				'username' => 'string',
 				'password' => 'string',
@@ -14,7 +14,7 @@
 	 
 		public function down()
 		{
-			$this->dropTable('tbl_contacts');
+			$this->dropTable('tbl_users');
 		}
 	}
 ?>
